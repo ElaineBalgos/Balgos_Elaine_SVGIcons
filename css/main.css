@@ -3,12 +3,14 @@ body {
 font-family: Helvetica, Arial, sans-serif;
 background-image: url("../images/bgroundCart.jpg");
 background-repeat: no-repeat;
+width: 500px;
+padding-left: 100px;
 }
 
 .container {
 display: inline-block;
 width: 750px;
-margin-left: 638px;
+margin-left: 535px;
 }
 
 .img-wrapper {
@@ -43,6 +45,13 @@ width: 100%;
 #Fries:hover #Logo{fill: #f7ed48;}
 #Fries:hover #Box{fill: #ed1c25;}
 
+#Meat:hover #Top{fill: #603813;}
+#Meat:hover #Top2{fill: #d4145a;}
+
+#Juice:hover #Logo{fill: #00a651;}
+#Juice:hover #Body{fill: #f26522;}
+
+#Beer:hover #BeerTop{fill: #ddcd5f;}
 
 #CoffeeCup:hover #body{fill: #7f5a00;}
 
