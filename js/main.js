@@ -4,27 +4,16 @@
 
 (() => {
    //print('some message');
-   console.log("some message - from JavaScript");
+   console.log("SVG Icon was clicked");
 
-   //find the buttom element on the page by its ID with Javascript
+   //find the button element on the page by its ID with Javascript
    let theButtom = document.querySelector("#myButtom"),
-       theHeading = document.querySelector('h1'),
-       //svgImage = document.querySelector("#svgGraphic"),
        allSVGs = document.querySelectorAll(".svg");
-
-   // this function changes the heading text
-   function changeText(){
-    theHeading.textContent = "Hello there from console";
-   }
 
    //log the id of the svg to the console when a user hovers on it
   function logSVG(){
     console.log(this.id);
   }
-
-    //theButtom.addEventListener("click",changeText);
-    //svgImage.addEventListener("click",logSVG);
-    //svgImage2.addEventListener("click",logSVG);
 
     // loop through the collection and apply our event handling to each element
     allSVGs.forEach(item => item.addEventListener('click', logSVG));

@@ -1,9 +1,8 @@
-
 body {
 font-family: Helvetica, Arial, sans-serif;
 background-image: url("../images/bgroundCart.jpg");
 background-repeat: no-repeat;
-width: 500px;
+width: 575px;
 padding-left: 100px;
 }
 
@@ -22,6 +21,11 @@ padding: 10px 15px;}
 width: 100%;
 }
 
+.onClickedText {
+  color: #db667a;
+  text-align: center;
+  font-size: 18px;
+}
 /* change the SVG graphic artwork with CSS! */
 
 #Burger:hover #Cheese{fill: #fbb03b;}
